@@ -1,0 +1,1313 @@
+/* General Styles */
+body {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.6;
+  color: #333; /* Darker text for contrast */
+  background-color: #ffffff; /* White background */
+  margin: 0;
+}
+
+/* Contact Section */
+.contact-section {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.contact-section .container {
+  max-width: 800px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+}
+
+/* Footer */
+.footer {
+  background: #0078d7;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+/* General Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.6;
+  color: #f1f1f1; /* Light font color for dark background */
+  background-color: #121212; /* Dark background */
+}
+
+
+
+/* Contact Section */
+.contact-section {
+  background-color: #121212;
+  color: #fff;
+  padding: 80px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.contact-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+}
+
+.contact-section p {
+  font-size: 1.1rem;
+  margin-bottom: 40px;
+}
+
+.contact-section .container {
+  max-width: 800px; /* Max width of the form */
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: #1e1e1e;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.contact-section .contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.contact-section .contact-form .form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-section .contact-form input, 
+.contact-section .contact-form select {
+  width: 100%;
+  padding: 12px;
+  margin-top: 8px;
+  background-color: #333;
+  border: 1px solid #555;
+  color: #fff;
+  font-size: 1rem;
+  border-radius: 5px;
+}
+
+.contact-section .contact-form button {
+  background-color: #ff5722;
+  color: #121212;
+  padding: 15px 30px;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  align-self: center;
+  width: auto;
+}
+
+.contact-section .contact-form button:hover {
+  background-color: #ff3d00;
+}
+
+/* Footer */
+.footer {
+  background: #1a1a1a;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+html {
+  scroll-behavior: smooth;
+}
+/* Social Navbar */
+.social-navbar {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+}
+
+.social-navbar .container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.social-links {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.social-links li {
+  display: flex;
+  align-items: center;
+}
+
+.social-links a {
+  color: #fff;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.social-links a:hover {
+  text-decoration: underline;
+}
+
+.social-icon {
+  width: 20px;
+  height: 20px;
+}
+
+
+/* Free Source Section */
+.free-source-section {
+   /* Same gradient as Hero Section */
+  color: #000; /* Black text color */
+  text-align: center;
+  padding: 60px 20px;
+  border-radius: 12px;
+  margin: 50px auto;
+  
+}
+
+.free-source-section h2 {
+  font-size: 2.3rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #000; /* Black text color */
+}
+
+.free-source-section p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 30px;
+  color: #000; /* Black text color */
+}
+
+.free-source-section .btn-youtube {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  background-color: #ff6f61;
+  color: #fff;
+  text-decoration: none;
+  padding: 12px 25px;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 8px;
+  transition: transform 0.3s, box-shadow 0.3s;
+  box-shadow: 0 4px 10px rgba(255, 111, 97, 0.4);
+}
+
+.free-source-section .btn-youtube:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 15px rgba(255, 111, 97, 0.6);
+}
+
+.free-source-section .youtube-icon {
+  width: 28px;
+  height: 28px;
+  display: inline-block;
+}
+
+/* Media Queries for Responsive Design */
+@media (max-width: 768px) {
+  .free-source-section h2 {
+    font-size: 1.8rem;
+  }
+
+  .free-source-section p {
+    font-size: 1rem;
+  }
+
+  .free-source-section .btn-youtube {
+    font-size: 0.9rem;
+    padding: 10px 20px;
+  }
+}
+
+/* Blujay Techn Info Section */
+.blujay-info {
+  background-color: #ffffff;  /* White background */
+  padding: 60px 20px;
+  margin-top: 20px;
+}
+
+.blujay-info .container {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Blujay Logo and Description */
+.logo-description {
+  flex: 1;
+  text-align: center;
+}
+
+.blujay-logo {
+  width: 150px;  /* Adjust logo size */
+  margin-bottom: 20px;
+}
+
+.logo-description p {
+  font-size: 1.1rem;
+  color: #333;
+  line-height: 1.6;
+}
+
+
+
+/* Location Section */
+.location-section {
+  flex: 1;
+  text-align: center;
+}
+
+.location-section h3 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.location-section ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.location-section li {
+  font-size: 1.1rem;
+  margin: 10px 0;
+  color: #555;
+}
+
+
+.hero-section {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  height: 100%;
+}
+
+.slide-content {
+  z-index: 10;
+  text-align: center;
+  color: #fff;
+}
+
+.slide-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 0;
+  filter: brightness(70%);
+}
+
+/* General Styles */
+body {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.6;
+  color: #333; /* Darker text for readability */
+  background-color: #ffffff; /* White background */
+  margin: 0;
+}
+
+
+
+/* Courses Section */
+.courses-section {
+  padding: 60px 20px;
+  text-align: center;
+  background-color: #f4f4f4; /* Subtle light gray background for contrast */
+}
+
+.courses-section h2 {
+  font-size: 2.8rem;
+  margin-bottom: 20px;
+  color: #0078d7; /* Blue for titles */
+  font-weight: bold;
+}
+
+.course-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.course-card {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.course-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+.course-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.course-card h3 {
+  color: #0078d7;
+  font-size: 1.6rem;
+  margin: 15px 0;
+  padding: 0 15px;
+}
+
+.course-card p {
+  color: #555;
+  font-size: 1rem;
+  padding: 0 15px 15px;
+}
+
+.course-card .btn-secondary {
+  display: block;
+  margin: 10px auto;
+  text-align: center;
+  background: #ff5722;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.course-card .btn-secondary:hover {
+  background: #e64a19;
+}
+
+/* Contact Section */
+.contact-section {
+  padding: 60px 20px;
+  text-align: center;
+  background-color: #0078d7; /* Blue background for emphasis */
+  color: white;
+}
+
+.contact-section .container {
+  max-width: 800px;
+  background: white;
+  color: #333; /* Dark text for white container */
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+}
+
+/* Footer */
+.footer {
+  background: #0078d7;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Removed Extra Containers */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+/* Free Source Section */
+.free-source-section {
+  background: linear-gradient(135deg, #a8c0ff, #3f4c6b); /* Same gradient as Hero Section */
+  color: #000; /* Black text color for readability */
+  text-align: center;
+  padding: 60px 20px;
+  border-radius: 12px;
+  margin: 50px auto;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.free-source-section .container {
+  background-color: #ffffff; /* White background for the container */
+  color: #333; /* Darker text for better readability */
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.free-source-section h2 {
+  font-size: 2.3rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #333; /* Dark text color */
+}
+
+.free-source-section p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 30px;
+  color: #333; /* Dark text for readability */
+}
+
+.free-source-section .btn-youtube {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  background-color: #ff6f61;
+  color: #fff;
+  text-decoration: none;
+  padding: 12px 25px;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 8px;
+  transition: transform 0.3s, box-shadow 0.3s;
+  box-shadow: 0 4px 10px rgba(255, 111, 97, 0.4);
+}
+
+.free-source-section .btn-youtube:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 15px rgba(255, 111, 97, 0.6);
+}
+
+.free-source-section .youtube-icon {
+  width: 28px;
+  height: 28px;
+  display: inline-block;
+}
+
+/* Media Queries for Responsive Design */
+@media (max-width: 768px) {
+  .free-source-section h2 {
+    font-size: 1.8rem;
+  }
+
+  .free-source-section p {
+    font-size: 1rem;
+  }
+
+  .free-source-section .btn-youtube {
+    font-size: 0.9rem;
+    padding: 10px 20px;
+  }
+}
+
+
+
+/* Features Section */
+.features-section {
+  background-color: #fff;
+  padding: 50px 0;
+}
+
+.features-section .container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;  /* Adds gap between the feature cards */
+}
+
+.feature-card {
+  background-color: white;
+  border: 1px solid #ddd;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 23%; /* Each card will take up 23% of the width */
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.feature-card:hover {
+  transform: scale(1.05); /* Slight zoom effect on hover */
+}
+
+.feature-card img.feature-icon {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 20px;
+}
+
+.feature-card h3 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.feature-card p {
+  font-size: 1rem;
+  color: #555;
+}
+
+@media (max-width: 768px) {
+  .feature-card {
+    width: 45%;  /* Adjust to 45% width on smaller screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .feature-card {
+    width: 100%;  /* Full width on very small screens */
+  }
+}
+
+
+/* General Navbar Styles */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #0078d7;
+  padding: 10px 20px;
+  position: relative;
+  z-index: 1000; /* Ensures the navbar stays above other content */
+}
+
+.navbar .logo img {
+  height: 50px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li {
+  position: relative;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+}
+
+.register-btn {
+  padding: 8px 15px;
+  background-color: #fff;
+  color: #0078d7;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.register-btn:hover {
+  background-color: #005bb5;
+  color: white;
+}
+
+/* Dropdown Menu */
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  padding: 10px 0;
+  list-style: none;
+}
+
+.dropdown-menu li a {
+  color: #0078d7;
+  padding: 8px 15px;
+  display: block;
+  white-space: nowrap;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+/* Fix for Large Screens */
+@media (min-width: 769px) {
+  .nav-links {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  /* Prevent navbar overlap with sliders */
+  .navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+}
+
+/* Mobile View */
+@media (max-width: 768px) {
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    background-color: #0078d7;
+    padding: 10px 0;
+    margin-top: 10px;
+  }
+
+  .nav-links li {
+    text-align: center;
+  }
+
+  .nav-links a {
+    padding: 10px;
+    display: block;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  }
+
+  .nav-links a:hover {
+    background-color: #005bb5;
+  }
+
+  .menu-toggle {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    cursor: pointer;
+    align-items: flex-end;
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  .menu-toggle span {
+    width: 30px;
+    height: 3px;
+    background-color: white;
+    border-radius: 3px;
+  }
+
+  /* Register Button Specific to Mobile */
+  .register-btn {
+    background-color: #ffa500; /* Orange for mobile screens */
+    color: white;
+  }
+
+  .register-btn:hover {
+    background-color: #ff7f00; /* Darker orange */
+  }
+
+  /* When nav is open */
+  .navbar.open .nav-links {
+    display: flex;
+  }
+}
+
+
+
+/* Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+/* General Section Styling */
+.courses-section {
+  padding: 40px 20px;
+  background-color: #f9f9f9;
+  font-family: 'Roboto', sans-serif;
+}
+
+.courses-section .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+
+/* Grid Layout for Courses */
+.course-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+
+/* General Styles for Course Cards */
+.courses-section {
+  padding: 50px 20px;
+  background-color: #f4f4f4;
+}
+
+.courses-section h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Course Grid Layout */
+.course-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 columns by default */
+  gap: 20px;
+}
+
+.course-card {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  padding: 20px;
+  transition: transform 0.3s ease;
+}
+
+.course-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.course-card h3 {
+  font-size: 1.25rem;
+  margin-top: 15px;
+}
+
+.course-card .course-price,
+.course-card .course-duration {
+  font-size: 1rem;
+  margin: 5px 0;
+}
+
+.course-card .btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #0078d7;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 20px;
+  margin-top: 10px;
+  transition: background-color 0.3s;
+}
+
+.course-card .btn:hover {
+  background-color: #005bb5;
+}
+
+/* Mobile View Adjustments */
+@media (max-width: 768px) {
+  .courses-section h2 {
+    font-size: 1.5rem;
+  }
+
+  .course-grid {
+    grid-template-columns: 1fr 1fr; /* 2 columns for tablets/smaller screens */
+    gap: 15px;
+  }
+
+  .course-card {
+    padding: 15px;
+    transition: transform 0.2s ease;
+  }
+
+  .course-card img {
+    height: 180px; /* Smaller image size for mobile */
+  }
+
+  .course-card h3 {
+    font-size: 1.1rem;
+  }
+
+  .course-card .course-price,
+  .course-card .course-duration {
+    font-size: 0.9rem;
+  }
+
+  .course-card .btn {
+    font-size: 0.9rem;
+    padding: 8px 15px;
+  }
+}
+
+/* Extra small screen sizes (mobile portrait) */
+@media (max-width: 480px) {
+  .course-grid {
+    grid-template-columns: 1fr; /* 1 column for very small screens */
+  }
+
+  .course-card {
+    padding: 10px;
+  }
+
+  .course-card img {
+    height: 150px; /* Even smaller image for small screens */
+  }
+
+  .course-card h3 {
+    font-size: 1rem;
+  }
+
+  .course-card .course-price,
+  .course-card .course-duration {
+    font-size: 0.8rem;
+  }
+
+  .course-card .btn {
+    font-size: 0.85rem;
+    padding: 6px 12px;
+  }
+}
+
+
+/* General Swiper Styles */
+.swiper {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  text-align: center;
+}
+
+/* Slide Background Images */
+
+
+/* Navigation Buttons */
+.swiper-button-next,
+.swiper-button-prev {
+  color: #fff;
+  font-size: 30px;
+  position: absolute;
+  top: 50%; /* Vertically centered */
+  transform: translateY(-50%);
+  z-index: 10; /* Ensures buttons are above the slider content */
+   /* Semi-transparent background for visibility */
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Adjust button position */
+.swiper-button-next {
+  right: 10px; /* Position on the right */
+}
+
+.swiper-button-prev {
+  left: 10px; /* Position on the left */
+}
+
+/* Pagination Dots */
+.swiper-pagination {
+  position: absolute;
+  bottom: 15px; /* Positioned at the bottom of the slider */
+  width: 100%;
+  text-align: center;
+  z-index: 10;
+}
+
+/* Mobile-Specific Styles */
+@media screen and (max-width: 768px) {
+  /* Adjust slider height for mobile */
+  .swiper {
+    height: 20vh;
+  }
+
+  /* Reduce button size for smaller screens */
+  .swiper-button-next,
+  .swiper-button-prev {
+    font-size: 20px;
+    width: 30px;
+    height: 30px;
+  }
+
+  /* Adjust pagination positioning */
+  .swiper-pagination {
+    bottom: 10px;
+  }
+}
+
+
+
+
+/* General Image Styling for Slider */
+.slide-bg {
+  width: 100%;
+  height: 100%;
+  object-fit: fill; /* Ensures images scale proportionally without distortion */
+}
+
+/* Adjust for Monitor Screens */
+@media screen and (min-width: 1024px) {
+  .swiper {
+    height: 50vh; /* Slider height for large screens */
+  }
+
+  .slide-bg {
+    height: 85vh; /* Match the slider height */
+    object-position: fill; /* Ensures the most important part of the image is visible */
+  }
+}
+
+/* Adjust for Tablet Screens */
+@media screen and (max-width: 1023px) and (min-width: 768px) {
+  .swiper {
+    height: 75vh; /* Slider height for medium screens */
+  }
+
+  .slide-bg {
+    height: 75vh;
+    object-position: center top; /* Focus on the top of the image for smaller screens */
+  }
+}
+
+/* Adjust for Mobile Screens */
+@media screen and (max-width: 767px) {
+  .swiper {
+    height: 15vh; /* Slider height for small screens */
+  }
+
+  .slide-bg {
+    height: 65vh;
+    object-position: center; /* Adjust image focus for smaller screens */
+  }
+}
+
+/* Center the section heading */
+.section-heading {
+  text-align: center;
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+/* Center the section heading */
+.section-heading {
+  text-align: center;
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+/* Styling for the review section */
+.student-reviews-section {
+  padding: 50px 0;
+}
+
+.reviews-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.review-card {
+  width: 250px;  /* Smaller width for cards */
+  background-color: #f4f4f4;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;  /* Center the content inside each card */
+}
+
+.review-card h3 {
+  font-size: 1.25em;
+  margin-bottom: 10px;
+}
+
+.review-card p {
+  font-size: 1em;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.student-name {
+  font-style: italic;
+}
+
+.suggested-course {
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+/* Scrolling Logos Section */
+.scrolling-logos {
+  padding: 30px 0;
+  background-color: #f4f4f4;  /* Optional background color */
+  overflow: hidden;  /* Hide the scrollbar */
+  width: 100%;  /* Full width */
+}
+
+.logo-container {
+  display: flex;
+  animation: scroll-logos 20s linear infinite;  /* Infinite scrolling animation */
+}
+
+.logo-item {
+  margin-right: 30px;  /* Adjust spacing between logos */
+  display: flex;
+  align-items: center;
+}
+
+.logo-item img {
+  max-width: 100px;  /* Adjust the size of the logos */
+  height: auto;
+}
+
+/* Define the scrolling animation */
+@keyframes scroll-logos {
+  0% {
+    transform: translateX(100%); /* Start from the right */
+  }
+  100% {
+    transform: translateX(-100%); /* Scroll to the left */
+  }
+}
+
+
+/* Media Queries for Tablet Screens (max-width: 768px) */
+@media (max-width: 768px) {
+  /* Navbar adjustments */
+  .nav-links {
+    flex-direction: column;
+    gap: 15px;
+  }
+  .nav-links .register-btn {
+    width: 100%;
+    text-align: center;
+    padding: 12px;
+  }
+
+  /* Hero Section */
+  .hero-section {
+    height: auto;
+    padding: 40px 20px;
+  }
+  .slide-content {
+    font-size: 1.2rem;
+  }
+
+  /* Courses Section */
+  .course-grid {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  }
+
+  /* Free Source Section */
+  .free-source-section h2 {
+    font-size: 1.8rem;
+  }
+  .free-source-section p {
+    font-size: 1rem;
+  }
+  .free-source-section .btn-youtube {
+    font-size: 0.9rem;
+    padding: 10px 20px;
+  }
+
+  /* Features Section */
+  .feature-card {
+    width: 45%;
+  }
+
+  /* Blujay Info Section */
+  .blujay-info .container {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  /* Contact Section */
+  .contact-section {
+    padding: 40px 15px;
+  }
+  .contact-section h2 {
+    font-size: 2rem;
+  }
+}
+
+/* Media Queries for Mobile Screens (max-width: 480px) */
+@media (max-width: 480px) {
+  /* Navbar adjustments */
+  .nav-links {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  /* Hero Section */
+  .hero-section {
+    height: auto;
+  }
+  .slide-content {
+    font-size: 1rem;
+    padding: 10px;
+  }
+
+  /* Courses Section */
+  .course-grid {
+    grid-template-columns: 1fr;
+  }
+
+  /* Free Source Section */
+  .free-source-section h2 {
+    font-size: 1.5rem;
+  }
+  .free-source-section p {
+    font-size: 0.9rem;
+  }
+  .free-source-section .btn-youtube {
+    font-size: 0.8rem;
+    padding: 8px 16px;
+  }
+
+  /* Features Section */
+  .feature-card {
+    width: 100%;
+  }
+
+  /* Blujay Info Section */
+  .blujay-info .container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  /* Contact Section */
+  .contact-section {
+    padding: 30px 10px;
+  }
+  .contact-section h2 {
+    font-size: 1.8rem;
+  }
+  .contact-section p {
+    font-size: 1rem;
+  }
+  .contact-section .contact-form input,
+  .contact-section .contact-form select,
+  .contact-section .contact-form button {
+    font-size: 0.9rem;
+  }
+}
+
+
+
+/* General Navbar Styles for Desktop */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* Aligns all items vertically in the center */
+  background-color: #0078d7;
+  padding: 10px 30px; /* Increased padding for better spacing */
+  position: sticky; /* Keeps the navbar fixed at the top */
+  top: 0;
+  z-index: 1000; /* Ensures it stays above all other elements */
+}
+
+.navbar .logo img {
+  height: 50px; /* Adjust logo size */
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 25px; /* Space between nav items */
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li {
+  position: relative;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 8px 12px; /* Spacing around text for better clickability */
+  transition: all 0.3s ease; /* Smooth hover effect */
+}
+
+.nav-links a:hover {
+  color: #ffc107; /* Highlight on hover */
+}
+
+.register-btn {
+  padding: 8px 15px;
+  background-color: #28a745; /* Updated color for desktop view */
+  color: white;
+  border-radius: 5px;
+  font-weight: bold;
+  text-align: center;
+  transition: background-color 0.3s ease;
+}
+
+.register-btn:hover {
+  background-color: #218838; /* Darker green for hover */
+}
+
+/* Dropdown Menu Styling */
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  padding: 10px 0;
+  list-style: none;
+}
+
+.dropdown-menu li a {
+  color: #0078d7;
+  padding: 8px 15px;
+  display: block;
+  white-space: nowrap;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+/* Media Query for Desktop (Min-width 769px) */
+@media (min-width: 769px) {
+  .nav-links {
+    justify-content: flex-end;
+    align-items: center;
+  }
+}
+/* Padding for Desktop Navbar */
+@media (min-width: 769px) {
+  
+}
+
+/* Small Change: Active State for Mobile Menu */
+.nav-links.show {
+  display: flex; /* Ensure the menu displays when "show" class is active */
+}
